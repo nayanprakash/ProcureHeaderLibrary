@@ -1,0 +1,160 @@
+.white-bg {
+    background: #fff;
+    border-bottom: 1px solid #f1f2f7;
+}
+.header {
+    /* position: fixed; */
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+.header {
+    min-height: 60px;
+    padding: 0 15px;
+}
+.full-width .navbar-header {
+    width: 100%;
+}
+a.logo {
+    font-size: 21px;
+    color: #2e2e2e;
+    float: left;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+a.logo img {
+    width: 124px;
+}
+.wrapper {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+.form-auth {
+    max-width: 400px;
+    margin: 75px auto 0;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.form-auth h2.form-auth-heading {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 136px 15px 10px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    color: #58c9f9 !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: url(../../assets/images/procure-square-logo-96px.png) center 20px no-repeat;
+}
+.login-wrap {
+    padding: 20px;
+}
+.login-wrap .form-group {
+    margin-bottom: 2px;
+}
+form .form-group label {
+    display: block;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #797979;
+}
+form .form-group label#rememberMe, form .form-group label.pull-right{
+    font-weight: lighter;
+}
+.form-auth a {
+    color: #6cf;
+	font-weight: lighter !important;
+}
+.form-auth a:hover {
+    color: #b6b6b6;
+}
+.form-auth .btn-success {
+    text-transform: uppercase;
+}
+.btn {
+    text-decoration: none !important;
+}
+.btn-inline-block {
+    margin-top: 15px;
+    display: inline-block;
+	width: 100%;
+	font-weight: lighter;
+}
+.form-horizontal .form-control {
+	font-weight: lighter;
+    color: #777!important;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.form-auth p {
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.form-auth p {
+    margin: 0 0 10px;
+}
+
+.login-wrap button.btn {
+    padding: 8px 12px 6px 12px;
+}
+.forgot_message {
+    line-height: 23px;
+}
+.forgot--form .login-wrap input.form-control {
+    border-color: #eaeaea; 
+}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+@media (min-width: 1200px){
+	.pad {
+		padding-left: 24px !important;
+	}
+	.col-lg-offset-2 {
+		margin-left: 16.66666667%;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-header {
+		float: left;
+	}
+	.form-horizontal .control-label {
+		padding-top: 14px !important;
+		margin-bottom: 0;
+		text-align: right;
+	}
+}
+@media only screen and (min-width: 469px){
+	.mobile-logo {
+		display: none!important;
+	}
+}
+@media only screen and (max-width: 468px) {
+	.mobile-logo {
+		height: 30px!important;
+		width: 30px!important;
+	}
+	.big-logo {
+		display: none!important;
+	}
+}
+
